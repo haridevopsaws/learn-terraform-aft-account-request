@@ -16,7 +16,7 @@ module "sandbox_account_01" {
   }
 
   change_management_parameters = {
-    change_requested_by = "Hari"
+    change_requested_by = "Hariprasad"
     change_reason       = "testing the account vending process"
   }
 
