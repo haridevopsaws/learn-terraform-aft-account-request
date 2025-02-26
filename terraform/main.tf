@@ -2,10 +2,10 @@ module "sandbox" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "hariaws009+sandbox02@gmail.com"
-    AccountName               = "sandboxaws2"
+    AccountEmail              = "hariaws009@gmail.com"
+    AccountName               = "sandbox1"
     ManagedOrganizationalUnit = "Sandbox"
-    SSOUserEmail              = "hariaws009+sandbox02@gmail.com"
+    SSOUserEmail              = "hariaws009@gmail.com"
     SSOUserFirstName          = "hari"
     SSOUserLastName           = "jinka"
   }
