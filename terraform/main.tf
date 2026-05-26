@@ -2,12 +2,12 @@ module "sandbox" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "hariawscorp009@gmail.com"
-    AccountName               = "US-Eisai-sandbox-aft-account"
+    AccountEmail              = "hariawscorp008@gmail.com"
+    AccountName               = "US-Eisai-sandbox-aft-account1"
     ManagedOrganizationalUnit = "Sandbox"
-    SSOUserEmail              = "hariawscorp009@gmail.com"
+    SSOUserEmail              = "hariawscorp008@gmail.com"
     SSOUserFirstName          = "hari"
-    SSOUserLastName           = "awscorp009"
+    SSOUserLastName           = "awscorp008"
   }
 
   account_tags = {
@@ -21,8 +21,7 @@ module "sandbox" {
   }
 
   custom_fields = {
-    custom1 = "a"
-    custom2 = "b"
+    create_vpc = "true"
   }
 
   account_customizations_name = "sandbox"
